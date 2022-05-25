@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/preloader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            /* Gambiarra Argardiana - Elo 8 de magia nordica (Não mexa) */
+            $(".img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9").click(function(){
+                $(".modalContainer1, .modalContainer2, .modalContainer3").addClass("mostrar");
+            });
+            $(".modalContainer1, .modalContainer2, .modalContainer3").click(function(){
+                $(".modalContainer1, .modalContainer2, .modalContainer3").removeClass("mostrar");
+            });
+        });
+    </script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="shortcut icon" href="img/favicone.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+<title>Projeto Jquery video</title>
+</head>
+<body>
+     <!-- início do preloader -->
+     <div id="preloader">
+        <div class="inner">
+           <!-- HTML DA ANIMAÇÃO MUITO LOUCA PRELOADER! -->
+         <img src="img/pre.gif">                
+           </div>
+        </div>
+    </div>
+    <!-- fim do preloader --> 
+    <header>
+        <div class="headerCabecalho">
+            <div class="logo">
+                <h1><img src="img/logo.png" alt="logo" width="09%"></h1>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <nav class="navbarItens">
+            <ul>
+                <li>
+                    <img src="img/img1.jpg" alt="img1" class="img1">
+                    <h3>Sonnie's EDGE</h3>
+                    <div class="modalContainer1">
+                        <video class="modalVideo1" src="video/v1.mp4" controls></video>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/img2.jpg" alt="img2" class="img2">
+                    <h3>Three Robots</h3>
+                    <div class="modalContainer2">
+                        <video class="modalVideo2" src="video/v1.mp4" controls></video>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/img3.jpg" alt="img3" class="img3">
+                    <h3>The Witness</h3>
+                    <div class="modalContainer3">
+                        <video class="modalVideo3" src="video/v1.mp4" controls></video>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <br><br>
+        <nav class="navbarItens">
+            <ul>
+                <li>
+                    <img src="img/img4.jpg" alt="img4" class="img4">
+                    <h3>Helping Hand</h3> 
+                    <div class="modalContainer4">
+                        <video class="modalVideo4" src="video/v1.mp4" controls></video>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/img5.jpg" alt="img5" class="img5">
+                    <h3>Suits</h3>
+                     <div class="modalContainer5">
+                        <video class="modalVideo5" src="video/v1.mp4" controls></video>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/img6.jpg" alt="img6" class="img6">
+                    <h3>Fish Night</h3>
+                    <div class="modalContainer6">
+                        <video class="modalVideo6" src="video/v1.mp4" controls></video>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <br><br>
+        <nav class="navbarItens">
+            <ul>
+                <li>
+                    <img src="img/img7.jpg" alt="img7" class="img7">
+                    <h3>The Secret War</h3>
+                    <div class="modalContainer7">
+                    <video class="modalVideo7" src="video/v1.mp4" controls></video>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/img8.jpg" alt="img8" class="img8">
+                    <h3>Sucker Of Souls</h3>
+                    <div class="modalContainer8">
+                    <video class="modalVideo8" src="video/v1.mp4" controls></video>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/img9.jpg" alt="img9" class="img9">
+                    <h3>Beyond The Aquila Rift</h3>
+                    <div class="modalContainer1">
+                    <video class="modalVideo8" src="video/v1.mp4" controls></video>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="navbargithub">
+        <ul>
+            <a href="https://github.com/paulofreitas-py" class="links" target="_blank">Feito com Gambiarra e Magia Nordica <i class="fa-brands fa-github"></i> 
+            </a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
